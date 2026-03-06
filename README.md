@@ -110,7 +110,7 @@ A redesigned swimlane flowchart of the improved process in the same format as Da
 
 ---
 
-## 🔢 Key Results
+## Key Results
 
 | Metric | Current | Optimized | Change |
 |--------|---------|-----------|--------|
