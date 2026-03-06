@@ -1,6 +1,6 @@
 ## Bayside General Hospital — Diagnostic Imaging Process Improvement
 
-A data-driven operations analysis of the outpatient diagnostic imaging workflow at Bayside General Hospital, using **service blueprinting**, **M/M/c queueing theory**, and **Monte Carlo simulation** to identify bottlenecks and redesign the patient journey for improved throughput and experience.
+A data-driven operations analysis of the outpatient diagnostic imaging workflow at Bayside General Hospital, using service blueprinting, M/M/c queueing theory, and Monte Carlo simulation to identify bottlenecks and redesign the patient journey for improved throughput and experience.
 
 ---
 
