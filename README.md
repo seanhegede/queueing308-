@@ -1,4 +1,4 @@
-## Bayside General Hospital — Diagnostic Imaging Process Improvement
+## Bayside General Hospital: Diagnostic Imaging Process Improvement
 
 A data-driven operations analysis of the outpatient diagnostic imaging workflow at Bayside General Hospital, using service blueprinting, M/M/c queueing theory, and Monte Carlo simulation to identify bottlenecks and redesign the patient journey for improved throughput and experience.
 
@@ -6,7 +6,7 @@ A data-driven operations analysis of the outpatient diagnostic imaging workflow 
 
 ## Project Overview
 
-This project is based on Case Problem 5.2 — *Herding the Patient* — from a Business Operations course. A cross-functional problem-solving team (nurse, technician, doctor, administrator, and patient representative) examined the 12-step outpatient diagnostic imaging process to identify inefficiencies and recommend improvements.
+A cross-functional problem-solving team (nurse, technician, doctor, administrator, and patient representative) examined the 12-step outpatient diagnostic imaging process to identify inefficiencies and recommend improvements.
 
 The analysis was conducted entirely in Python using `numpy`, `pandas`, `matplotlib`, and `scipy`, producing five dashboards covering everything from process mapping to simulation-based sensitivity analysis.
 
@@ -14,7 +14,7 @@ The analysis was conducted entirely in Python using `numpy`, `pandas`, `matplotl
 
 ## Dashboards
 
-### Dashboard 1 — Current-State Process Flow
+### Dashboard 1: Current-State Process Flow
 
 A **service blueprint** of the existing 12-step patient journey, organized into swimlanes by responsible party:
 
@@ -34,7 +34,7 @@ Key features:
 
 ---
 
-### Dashboard 2 — M/M/c Queueing Analysis (Current State)
+### Dashboard 2: M/M/c Queueing Analysis (Current State)
 
 Applies an **M/M/c (Erlang-C) queueing model** to each station, assuming:
 - Poisson patient arrivals at **6 patients/hour**
@@ -59,7 +59,7 @@ Metrics calculated per station:
 
 ---
 
-### Dashboard 3 — Before vs After Improvement Analysis
+### Dashboard 3: Before vs After Improvement Analysis
 
 Side-by-side comparison of the current and optimized processes across all stations, showing:
 
@@ -80,7 +80,7 @@ Side-by-side comparison of the current and optimized processes across all statio
 
 ---
 
-### Dashboard 4 — Simulation & Sensitivity Analysis
+### Dashboard 4: Simulation & Sensitivity Analysis
 
 Four sub-analyses providing statistical depth:
 
@@ -98,7 +98,7 @@ Maps server utilization across all 12 stations at arrival rates from 2–12 pati
 
 ---
 
-### Dashboard 5 — Optimized Process Flow
+### Dashboard 5: Optimized Process Flow
 
 A redesigned swimlane flowchart of the improved process in the same format as Dashboard 1, with visual annotations highlighting what changed:
 
